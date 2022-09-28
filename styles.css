@@ -1,0 +1,58 @@
+/* GOOGLE FONT IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Ubuntu&display=swap");
+
+/* GLOBAL DEFAULTS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	font-family: "Ubuntu", "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+	height: 100vw;
+	width: 100vw;
+	background-color: #101010;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	width: 60%;
+	text-align: center;
+	border-bottom: 1px solid #38cdfa;
+}
+
+.title {
+	cursor: default;
+	color: #8e8e8e;
+	margin: 0 0.25rem;
+	text-shadow: 2px 2px 0.25rem black;
+	transition: all 2s ease;
+}
+
+.container {
+	height: 70%;
+	width: 70%;
+	margin-top: 3rem;
+	border: 1px solid #38cdfa;
+	box-shadow: 0 0 0.75rem 0.5rem #38cdfa;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	height: 5%;
+	width: 5%;
+	border: 1px solid #8e8e8ebf;
+	transition: all 2s ease;
+}
+
+.box:hover,
+.title:hover {
+	transition-duration: 0ms;
+}

@@ -6,3 +6,5 @@
 <p>Hover over the boxes and JavaScript will change its color using math randomization and an array of color options.</p>
 <p>The color will begin to fade when the cursor exits the box.</p>
 <p>The same effect was given to the letters, but instead of fading back to gray they will remain a cyan color unless hovered over again.</p>
+
+<a href="https://mattwheeler-dev.github.io/hovers/" target="_blank">Test it out live here</a>
